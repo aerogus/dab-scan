@@ -46,7 +46,6 @@ $ ./json2table.php
 | 6A    | F00E  | PARIS 6A         | F229      | 2            | Beur FM          | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
 | 6A    | F00E  | PARIS 6A         | FED6      | 4            | FG CHIC          | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
 | 6A    | F00E  | PARIS 6A         | F21C      | 5            | LATINA           | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
-| 6A    | F00E  | PARIS 6A         | FEE8      | 6            | CROONER RADIO    | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
 | 6A    | F00E  | PARIS 6A         | F22B      | 8            | Radio Orient     | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
 | 6A    | F00E  | PARIS 6A         | FEA3      | 9            | Vivre FM         | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
 | 6A    | F00E  | PARIS 6A         | FEF2      | 10           | MAXXIMUM         | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
@@ -102,7 +101,6 @@ $ ./json2table.php
 | 9A    | F010  | RNT Associative  | F68C      | 10           | Radio TER        | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
 | 9A    | F010  | RNT Associative  | FED7      | 11           | Frequence India  | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
 | 9A    | F010  | RNT Associative  | FEF8      | 12           | CAUSE COMMUNE    | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
-| 9B    | F011  | PARIS 9B         | FEE4      | 0            | PI-MG            | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
 | 9B    | F011  | PARIS 9B         | FEE6      | 3            | Radio ALFA       | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
 | 9B    | F011  | PARIS 9B         | FEDF      | 5            | MEDI 1           | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
 | 9B    | F011  | PARIS 9B         | F8FE      | 7            | RADIO PITCHOUN   | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
@@ -111,18 +109,19 @@ $ ./json2table.php
 | 9B    | F011  | PARIS 9B         | FEDC      | 10           | HopeRadio        | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
 | 9B    | F011  | PARIS 9B         | FEE0      | 11           | AASMAN RADIO     | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
 | 9B    | F011  | PARIS 9B         | FE86      | 12           | SENSATIONS+      | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
+| 9B    | F011  | PARIS 9B         | FEE4      | 0            | PI-MG            | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
 | 9B    | F011  | PARIS 9B         | FEE5      | 1            | CINEMUSIC Radio  | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
+| 11A   | F012  | PARIS 11A        | FECF      | 12           | Inrocks Radio    | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
+| 11A   | F012  | PARIS 11A        | F439      | 1            | EMOTION          | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
+| 11A   | F012  | PARIS 11A        | FE34      | 2            | TROPIQUES FM     | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
+| 11A   | F012  | PARIS 11A        | FEED      | 3            | Radio LiFE       | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
+| 11A   | F012  | PARIS 11A        | FE41      | 4            | ESPACE FM        | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
+| 11A   | F012  | PARIS 11A        | FEFA      | 5            | TRACE FM PARIS   | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
 | 11A   | F012  | PARIS 11A        | FEE2      | 6            | PANAME           | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
 | 11A   | F012  | PARIS 11A        | FEE1      | 7            | Collector        | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
 | 11A   | F012  | PARIS 11A        | FEF0      | 9            | Radio Monaco     | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
 | 11A   | F012  | PARIS 11A        | FEF7      | 10           | SEQUENCE FM      | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
 | 11A   | F012  | PARIS 11A        | FEEE      | 11           | Sanef 107.7 IDF  | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
-| 11A   | F012  | PARIS 11A        | FEED      | 3            | Radio LiFE       | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
-| 11A   | F012  | PARIS 11A        | FE41      | 4            | ESPACE FM        | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
-| 11A   | F012  | PARIS 11A        | FECF      | 12           | Inrocks Radio    | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
-| 11A   | F012  | PARIS 11A        | F439      | 1            | EMOTION          | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
-| 11A   | F012  | PARIS 11A        | FE34      | 2            | TROPIQUES FM     | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
-| 11A   | F012  | PARIS 11A        | FEFA      | 5            | TRACE FM PARIS   | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
 | 11B   | F038  | Paris-Etendu     | FE43      | 1            | CHANTE FRANCE    | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
 | 11B   | F038  | Paris-Etendu     | F9F5      | 2            | Melody           | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
 | 11B   | F038  | Paris-Etendu     | FE50      | 3            | GENERATIONS      | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
@@ -137,8 +136,7 @@ $ ./json2table.php
 | 11B   | F038  | Paris-Etendu     | F22A      | 12           | NOVA             | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
 | 11B   | F038  | Paris-Etendu     | F22F      | 13           | J A Z Z Radio    | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
 +-------+-------+------------------+-----------+--------------+------------------+---------+-------+----------+-----------------+----------+
+Total: 95 stations
 ```
 
-Scan du 18/06/2022 en région parisienne
-
-
+Scan du 19/06/2022 en région parisienne
