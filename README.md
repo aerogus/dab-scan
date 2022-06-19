@@ -25,6 +25,9 @@ le binaire du scanner est dans `/usr/local/bin/dab-scanner-rtlsdr`
 ./scan.sh
 ```
 
+Le scan prend environ 2 minutes à faire l'ensemble des canaux de la bande III
+Todo: recompiler avec que les canaux utilisé en France ?
+
 ## Conversion json vers tableau
 
 Dépendance composer : https://getcomposer.org
