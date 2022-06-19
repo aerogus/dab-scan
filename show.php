@@ -52,3 +52,5 @@ $table->setRows($data);
 $table->setRenderer(new \cli\table\Ascii());
 $table->display();
 
+echo "Total: " . sizeof($data) . " stations\n";
+

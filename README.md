@@ -25,6 +25,9 @@ le binaire du scanner est dans `/usr/local/bin/dab-scanner-rtlsdr`
 ./scan.sh
 ```
 
+Le scan prend environ 2 minutes à faire l'ensemble des canaux de la bande III
+Todo: recompiler avec que les canaux utilisé en France ?
+
 ## Conversion json vers tableau
 
 Dépendance composer : https://getcomposer.org
@@ -137,6 +140,7 @@ $ ./json2table.php
 | 11B   | F038  | Paris-Etendu     | F22A      | 12           | NOVA             | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
 | 11B   | F038  | Paris-Etendu     | F22F      | 13           | J A Z Z Radio    | 88      | DAB+  | unknown  | EEP 3-A         | 1/2      |
 +-------+-------+------------------+-----------+--------------+------------------+---------+-------+----------+-----------------+----------+
+Total: 96 stations
 ```
 
 Scan du 18/06/2022 en région parisienne
