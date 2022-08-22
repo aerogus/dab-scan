@@ -30,19 +30,19 @@ $obj = json_decode(file_get_contents($dab_scan_file));
 
 foreach ($obj as $muxId => $mux) {
     foreach ($mux->services as $serviceId => $service) {
-	$row = [];
+        $row = [];
         $row[] = $mux->channel;
-       	$row[] = $muxId;
-	$row[] = $mux->name;
-	$row[] = $serviceId;
-	$row[] = $service->subchannelId;
-	$row[] = $service->name;
-	$row[] = $service->bitRate;
-	$row[] = $service->audio;
-	$row[] = $service->language;
-	$row[] = $service->protectionLevel;
-	$row[] = $service->codeRate;
-	$data[] = $row;
+        $row[] = $muxId;
+        $row[] = $mux->name;
+        $row[] = $serviceId;
+        $row[] = $service->subchannelId;
+        $row[] = $service->name;
+        $row[] = $service->bitRate;
+        $row[] = $service->audio;
+        $row[] = $service->language;
+        $row[] = $service->protectionLevel;
+        $row[] = $service->codeRate;
+        $data[] = $row;
     }
 }
 
@@ -53,4 +53,3 @@ $table->setRenderer(new \cli\table\Ascii());
 $table->display();
 
 echo "Total: " . sizeof($data) . " stations\n";
-
