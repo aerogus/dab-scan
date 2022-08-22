@@ -1,5 +1,5 @@
 {
     "require": {
-        "wp-cli/php-cli-tools": "^0.11.13"
+        "wp-cli/php-cli-tools": "0.11.14"
     }
 }
