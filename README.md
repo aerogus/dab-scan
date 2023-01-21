@@ -6,7 +6,7 @@ On se base sur l'outil `dab-scanner-rtlsdr` qui exporte les résultats de son sc
 
 ## Installation
 
-```
+```bash
 git clone https://github.com/JvanKatwijk/dab-cmdline
 sudo apt-get update
 sudo apt-get install git cmake build-essential g++ pkg-config libsndfile1-dev libfftw3-dev portaudio19-dev libfaad-dev zlib1g-dev libusb-1.0-0-dev mesa-common-dev libgl1-mesa-dev libsamplerate0-dev
@@ -21,7 +21,7 @@ le binaire du scanner est dans `/usr/local/bin/dab-scanner-rtlsdr`
 
 ## Lancement du scan
 
-```
+```bash
 ./scan.sh
 ```
 
@@ -32,14 +32,14 @@ Todo: recompiler avec que les canaux utilisé en France ?
 
 Dépendance composer : https://getcomposer.org
 
-```
+```bash
 composer install
 ```
 
 ## Visualisation des résultats
 
-```
-$ ./json2table.php
+```bash
+$ ./show.php
 +-------+-------+------------------+-----------+--------------+------------------+---------+-------+----------+-----------------+----------+
 | canal | muxId | muxName          | serviceId | subchannelId | serviceName      | bitRate | audio | language | protectionLevel | codeRate |
 +-------+-------+------------------+-----------+--------------+------------------+---------+-------+----------+-----------------+----------+
