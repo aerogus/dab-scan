@@ -39,8 +39,9 @@ composer install
 
 ## Visualisation des résultats
 
-```bash
-$ ./show.php
+le script `show.php` génère un affichage de ce type :
+
+```
 +-------+-------+------------------+-----------+--------------+------------------+---------+-------+----------+-----------------+----------+
 | canal | muxId | muxName          | serviceId | subchannelId | serviceName      | bitRate | audio | language | protectionLevel | codeRate |
 +-------+-------+------------------+-----------+--------------+------------------+---------+-------+----------+-----------------+----------+
